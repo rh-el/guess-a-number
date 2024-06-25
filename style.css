@@ -1,0 +1,56 @@
+:root{
+    --primary: #C1EDCC;
+    --secondary:#B0C0BC;
+    --dark: #453F3C;
+    font-family: "Outfit", sans-serif;
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    background-color: var(--primary);
+}
+
+body {
+    text-align: center;
+}
+
+.main-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field {
+    height: 5%;
+    font-size: 2em;
+    text-orientation: sideways;
+    text-align: right;
+    padding: 1.5em;
+    border-radius: 20px;
+    color: var(--dark);
+}
+
+.input-field::-webkit-outer-spin-button,
+.input-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::selection {
+    background-color: var(--dark);
+    color: var(--primary
+    );
+}
+
+span {
+    background-color: var(--dark);
+    color: var(--primary);
+}
+
+.attempts {
+    font-size: 0.7em;
+    font-weight: 400;
+}
